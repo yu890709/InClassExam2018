@@ -11,7 +11,7 @@ public class Order {
 		System.out.println("Result:");
 		for(int i=0;i<bag.size();i++){
 			Ticket t=(Ticket)bag.get(i);
-			System.out.println(t.origin+" "+t.destination+" "+t.price+" "+t.quantity+" "+t.price*t.quantity);
+			System.out.println(t.getTicket());
 		}
 	}
 

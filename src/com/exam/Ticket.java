@@ -12,5 +12,8 @@ public class Ticket {
 		this.price=price;
 		this.quantity=quantity;
 	}
+	public String getTicket() {
+		return origin+" "+destination+"\t"+price+"\t"+quantity+"\t"+price*quantity;
+	}
 
 }
