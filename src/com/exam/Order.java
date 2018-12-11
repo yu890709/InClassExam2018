@@ -5,10 +5,7 @@ import java.util.ArrayList;
 public class Order {
 	ArrayList bag=new ArrayList();
 	public void add(Ticket t){
-		Ticket ot=new Ticket();
-		ot=t;
-		bag.add(ot);
-	
+		bag.add(t);
 	}
 	public void print(){
 		System.out.println("Result:");

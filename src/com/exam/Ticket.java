@@ -5,9 +5,7 @@ public class Ticket {
 	String destination;
 	int price;
 	int quantity;
-	public Ticket(){
-		
-	}
+	
 	public Ticket(String origin,String destination,int price,int quantity){
 		this.origin=origin;
 		this.destination=destination;
